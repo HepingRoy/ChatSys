@@ -17,12 +17,13 @@
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
+
 QT_BEGIN_NAMESPACE
 
 class Ui_Widget
 {
 public:
-    QTextEdit *textMsg;
+    QTextEdit *textMsg;//send
     QWidget *layoutWidget;
     QHBoxLayout *horizontalLayout;
     QTextEdit *textInput;
